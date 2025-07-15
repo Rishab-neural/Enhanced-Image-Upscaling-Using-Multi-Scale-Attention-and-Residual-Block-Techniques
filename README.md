@@ -2,11 +2,10 @@
 
 This repository contains the Master's thesis and supporting materials for a novel image super-resolution model combining **Multi-Scale Attention (MSA)** mechanisms and **Residual Blocks**.
 
-📄 **[View the full dissertation](./thesis.pdf)**
 
 ---
 
-## 🧠 Abstract
+## Abstract
 
 This project explores the integration of **multi-scale attention mechanisms** and **residual blocks** within a deep learning architecture for single-image super-resolution (SR). The proposed **EDSR-MSA model** employs a progressive GAN-based framework trained at 2x and 4x scales. It also incorporates **Grad-CAM** for interpretability, helping visualize attention regions during upscaling.
 
@@ -18,7 +17,7 @@ This project explores the integration of **multi-scale attention mechanisms** an
 
 ---
 
-## 🧪 Technologies Used
+## Technologies Used
 
 - Python
 - PyTorch
@@ -27,7 +26,13 @@ This project explores the integration of **multi-scale attention mechanisms** an
 
 ---
 
-## 📊 Results
+## Interpretability with Grad-CAM
+
+Grad-CAM was applied to visualize areas of the image the model focuses on during upscaling. This helped interpret and validate the model’s decision-making process.
+
+---
+
+## Results
 
 | Metric      | Value     |
 |-------------|-----------|
@@ -35,19 +40,3 @@ This project explores the integration of **multi-scale attention mechanisms** an
 | SSIM        | 0.7472    |
 
 The model demonstrates competitive performance, with visual improvements and deeper interpretability via Grad-CAM.
-
----
-
-## 🖼️ Sample Results
-
-> Include before/after sample image comparisons in the `results/` folder if available.
-
----
-
-## 🔍 Interpretability with Grad-CAM
-
-Grad-CAM was applied to visualize areas of the image the model focuses on during upscaling. This helped interpret and validate the model’s decision-making process.
-
----
-
-## 📁 Project Structure
