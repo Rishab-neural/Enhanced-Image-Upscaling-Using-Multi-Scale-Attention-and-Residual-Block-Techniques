@@ -33,7 +33,7 @@ To improve model transparency, Gradient-weighted Class Activation Mapping (Grad-
 
 ## Evaluation Results
 
-The EDSR-MSA model was evaluated on a test set of 100 images. Performance metrics are as follows:
+The EDSR-MSA model was evaluated on a test set of images. Performance metrics are as follows:
 
 | Metric | Value        |
 |--------|--------------|
